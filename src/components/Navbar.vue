@@ -21,8 +21,8 @@ export default {};
 
 <style lang="scss" scoped>
 nav {
-  height: 60px;
-  line-height: 60px;
+  height: 40px;
+  line-height: 40px;
   margin-bottom: 40px;
   ul {
     display: flex;
@@ -33,7 +33,6 @@ nav {
     li {
       font-size: 10px;
       color: #025293;
-      font-weight: bold;
       cursor: pointer;
     }
     li:hover {
@@ -42,7 +41,7 @@ nav {
   }
 }
 .logo {
-  height: 50px;
-  padding-top: 20px;
+  height: 40px;
+  padding-top: 10px;
 }
 </style>
