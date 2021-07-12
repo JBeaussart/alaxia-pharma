@@ -25,7 +25,7 @@ import Navbar from './components/Navbar.vue';
   color: #2c3e50;
 }
 .container {
-  width: 70%;
+  width: 65%;
   margin: 0 auto;
 }
 </style>
