@@ -1,6 +1,6 @@
 <template>
-  <nav class="container">
-    <ul>
+  <nav>
+    <ul class="container">
       <li>ABOUT</li>
       <li>ALX-009</li>
       <li>CYSTIC FIBROSIS</li>
@@ -21,15 +21,15 @@ export default {};
 
 <style lang="scss" scoped>
 nav {
-  height: 40px;
-  line-height: 40px;
+  height: 70px;
+  line-height: 60px;
   margin-bottom: 40px;
+  border-bottom: 2px solid #025293;
   ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    border-bottom: 2px solid #025293;
     li {
       font-size: 10px;
       color: #025293;
@@ -41,7 +41,7 @@ nav {
   }
 }
 .logo {
-  height: 40px;
-  padding-top: 10px;
+  height: 50px;
+  padding-top: 20px;
 }
 </style>
