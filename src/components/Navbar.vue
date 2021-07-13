@@ -45,6 +45,14 @@ nav {
         text-decoration: none;
         color: #025293;
       }
+      a:active {
+        color: #3bb8e3;
+        font-weight: bolder;
+      }
+      a:focus {
+        color: #3bb8e3;
+        font-weight: bolder;
+      }
     }
     li:hover {
       color: #3bb8e3;
