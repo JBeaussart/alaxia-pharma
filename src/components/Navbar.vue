@@ -1,16 +1,24 @@
 <template>
   <nav>
     <ul class="container">
-      <li>ABOUT</li>
-      <li>ALX-009</li>
-      <li>CYSTIC FIBROSIS</li>
-      <li>PARTNERS</li>
-      <li>SCIENTIFIC BOARD</li>
-      <li>NEWS</li>
-      <li>EVENTS</li>
-      <li>POSTERS AND TALKS</li>
-      <li>CONTACT</li>
-      <li><img class="logo" src="../assets/logo.jpeg" alt="logo alaxia" /></li>
+      <li><router-link to="/">ABOUT</router-link></li>
+      <li><router-link to="/alx-009">ALX-009</router-link></li>
+      <li><router-link to="/cystic-fibrosis">CYSTIC FIBROSIS</router-link></li>
+      <li><router-link to="/partners">PARTNERS</router-link></li>
+      <li>
+        <router-link to="/scientific-board">SCIENTIFIC BOARD</router-link>
+      </li>
+      <li><router-link to="/news">NEWS</router-link></li>
+      <li><router-link to="/events">EVENTS</router-link></li>
+      <li>
+        <router-link to="/poster-and-talk">POSTERS AND TALKS</router-link>
+      </li>
+      <li><router-link to="/contact">CONTACT</router-link></li>
+      <li>
+        <router-link to="/"
+          ><img class="logo" src="../assets/logo.jpeg" alt="logo alaxia"
+        /></router-link>
+      </li>
     </ul>
   </nav>
 </template>
@@ -32,8 +40,19 @@ nav {
     list-style: none;
     li {
       font-size: 10px;
-      color: #025293;
       cursor: pointer;
+      a {
+        text-decoration: none;
+        color: #025293;
+      }
+      a:active {
+        color: #3bb8e3;
+        font-weight: bolder;
+      }
+      a:focus {
+        color: #3bb8e3;
+        font-weight: bolder;
+      }
     }
     li:hover {
       color: #3bb8e3;
