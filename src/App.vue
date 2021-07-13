@@ -1,6 +1,6 @@
 <template>
   <Navbar />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <router-view></router-view>
 </template>
 
 <script setup>
