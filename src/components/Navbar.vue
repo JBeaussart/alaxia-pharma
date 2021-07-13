@@ -40,8 +40,11 @@ nav {
     list-style: none;
     li {
       font-size: 10px;
-      color: #025293;
       cursor: pointer;
+      a {
+        text-decoration: none;
+        color: #025293;
+      }
     }
     li:hover {
       color: #3bb8e3;
