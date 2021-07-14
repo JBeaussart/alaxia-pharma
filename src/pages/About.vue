@@ -11,7 +11,8 @@
     </p>
     <br />
     <br />
-    <p>ALX-009 Cystic Fibrosis</p>
+    <h2>ALX-009 Cystic Fibrosis</h2>
+    <br />
     <p>
       Targets multi-drug-resistant (MDR) bacterial infections not treatable by
       current antibiotic therapies. Ready-to-inhale combination of two
@@ -39,10 +40,16 @@ p {
   text-align: left;
   color: #025293;
 }
-p:nth-child(6) {
+p:nth-child(5) {
   font-weight: bold;
 }
+p:nth-child(3) {
+  text-align: justify;
+}
+p:nth-child(8) {
+  text-align: justify;
+}
 img {
-  width: 700px;
+  width: 100%;
 }
 </style>
