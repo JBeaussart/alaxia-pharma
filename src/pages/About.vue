@@ -51,5 +51,6 @@ p:nth-child(8) {
 }
 img {
   width: 100%;
+  margin-bottom: 24px;
 }
 </style>

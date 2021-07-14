@@ -14,8 +14,12 @@
       <h3>KEEP IN TOUCH</h3>
     </div>
     <div>
-      <i class="fab fa-linkedin-in"></i>
-      <i class="fab fa-twitter"></i>
+      <a target="_blank" href="https://www.linkedin.com/company/alaxia-sas/">
+        <i class="fab fa-linkedin-in"></i
+      ></a>
+      <a target="_blank" href="https://twitter.com/Meveol"
+        ><i class="fab fa-twitter"></i
+      ></a>
     </div>
     <br />
     <p>© 2014 Alaxia. All rights reserved. Terms of Use | Privacy Statements</p>
@@ -34,18 +38,23 @@ export default {};
 <style lang="scss" scoped>
 .footer_container {
   background-color: rgb(220, 220, 220);
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 i {
   font-size: 32px;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 10px;
 }
 p:nth-child(2) {
   text-align: justify;
 }
 p:last-child {
+  width: 300px;
+  margin: 0 auto;
+}
+p:nth-child(4) {
   width: 300px;
   margin: 0 auto;
 }
