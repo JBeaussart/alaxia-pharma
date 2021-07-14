@@ -18,9 +18,12 @@ import Footer from './components/Footer.vue';
 
 /* GENERAL SETTINGS */
 * {
+  color: #025293;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 12px;
+  line-height: 20px;
 }
 #app {
   font-family: Lato, Helvetica, Arial, sans-serif;

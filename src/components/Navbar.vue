@@ -29,21 +29,20 @@ export default {};
 
 <style lang="scss" scoped>
 nav {
-  height: 70px;
-  line-height: 60px;
+  padding: 15px;
   margin-bottom: 40px;
   border-bottom: 2px solid #025293;
   ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
     li {
-      font-size: 10px;
       cursor: pointer;
       a {
         text-decoration: none;
         color: #025293;
+        font-size: 10px;
       }
       a:active {
         color: #3bb8e3;
@@ -60,7 +59,7 @@ nav {
   }
 }
 .logo {
-  height: 50px;
-  padding-top: 20px;
+  height: 30px;
+  padding-top: px;
 }
 </style>
