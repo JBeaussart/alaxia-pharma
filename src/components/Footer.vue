@@ -12,6 +12,7 @@
       </p>
       <h3>KEEP IN TOUCH</h3>
     </div>
+    <p><i class="fab fa-linkedin-in"></i></p>
   </div>
 </template>
 
