@@ -17,9 +17,17 @@
       </p>
     </div>
     <div class="btn container">
-      <p><a href="#overview">Overview</a></p>
-      <p><a href="#efficacy">Efficacy</a></p>
-      <p><a href="#further_reading">Further reading</a></p>
+      <p>
+        <a href="#overview"><i class="fas fa-binoculars"></i> Overview</a>
+      </p>
+      <p>
+        <a href="#efficacy"><i class="fas fa-bolt"></i> Efficacy</a>
+      </p>
+      <p>
+        <a href="#further_reading"
+          ><i class="fas fa-book-open"></i> Further reading</a
+        >
+      </p>
     </div>
   </div>
   <br />
