@@ -16,7 +16,7 @@
       <li><router-link to="/contact">CONTACT</router-link></li>
       <li>
         <router-link to="/"
-          ><img class="logo" src="../assets/logo.jpeg" alt="logo alaxia"
+          ><img class="logo" src="../assets/logo.jpg" alt="logo alaxia"
         /></router-link>
       </li>
     </ul>
@@ -29,7 +29,8 @@ export default {};
 
 <style lang="scss" scoped>
 nav {
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-bottom: 40px;
   border-bottom: 2px solid #025293;
   ul {
