@@ -51,7 +51,7 @@
       </p>
       <img
         class="alx_page_schema"
-        src="../assets/alx_page_first_schemajpg.jpg"
+        src="../assets/alx_page/alx_page_first_schemajpg.jpg"
         alt=""
       />
     </div>
@@ -84,7 +84,7 @@
       <a target="_blank" href="https://vimeo.com/243802312"
         ><img
           class="alx_page_second_schema"
-          src="../assets/alx_page_second_schemajpg.jpg"
+          src="../assets/alx_page/alx_page_second_schemajpg.jpg"
           alt=""
       /></a>
     </div>
@@ -110,7 +110,7 @@
         </p>
         <img
           class="alx_page_schema"
-          src="../assets/alx_page__efficacy_first_schemajpg.png"
+          src="../assets/alx_page/alx_page__efficacy_first_schemajpg.png"
           alt=""
         />
       </div>
@@ -132,12 +132,12 @@
       <div class="img_efficacy">
         <img
           class="alx_page_schema_small"
-          src="../assets/alx_page__efficacy_second_schemajpg.jpg"
+          src="../assets/alx_page/alx_page__efficacy_second_schemajpg.jpg"
           alt=""
         />
         <img
           class="alx_page_schema_small"
-          src="../assets/alx_page__efficacy_third_schemajpg.jpg"
+          src="../assets/alx_page/alx_page__efficacy_third_schemajpg.jpg"
           alt=""
         />
       </div>
@@ -155,12 +155,12 @@
       <div class="img_efficacy">
         <img
           class="alx_page_schema_small"
-          src="../assets/alx_page__efficacy_fourth_schemajpg.jpg"
+          src="../assets/alx_page/alx_page__efficacy_fourth_schemajpg.jpg"
           alt=""
         />
         <img
           class="alx_page_schema_small"
-          src="../assets/alx_page__efficacy_six_schemajpg.jpg"
+          src="../assets/alx_page/alx_page__efficacy_six_schemajpg.jpg"
           alt=""
         />
       </div>
