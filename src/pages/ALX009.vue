@@ -1,5 +1,6 @@
 <template>
   <!-- BANNER OF THE ALX PAGE -->
+
   <div class="alx_banner">
     <div class="alx_banner_content container">
       <h2 class="alx_banner_content_title">ALX009</h2>
@@ -22,10 +23,11 @@
     </div>
   </div>
   <br />
+
   <!-- OVERVIEW PART -->
+
   <div id="overview" class="container alx_overview">
     <h2 class="alx_part_title">OVERVIEW</h2>
-    <br />
     <br />
     <h3>ALX-009 scientific and medical rationale.</h3>
     <p>
@@ -44,11 +46,11 @@
     </p>
     <br />
     <div>
-      <p class="alx_page_first_schema_desciption">
+      <p class="alx_page_schema_desciption">
         Impaired OSCN- and lactoferrin in CF patients lungs’ defense
       </p>
       <img
-        class="alx_page_first_schema"
+        class="alx_page_schema"
         src="../assets/alx_page_first_schemajpg.jpg"
         alt=""
       />
@@ -89,7 +91,9 @@
   </div>
   <br />
   <br />
+
   <!-- EFFICACY PART -->
+
   <div id="efficacy" class="container efficacy">
     <h2 class="alx_part_title">EFFICACY</h2>
     <br />
@@ -97,6 +101,19 @@
       ALX-009 (OSCN-/bLF) – a therapeutic option to fight broader bacterial
       infections
     </h3>
+    <br />
+    <div>
+      <p class="alx_page_schema_desciption">
+        Tests performed by Alaxia or in collaboration with Queen’s University
+        Belfast or Colorado State University
+      </p>
+      <img
+        class="alx_page_schema"
+        src="../assets/alx_page__efficacy_first_schemajpg.png"
+        alt=""
+      />
+    </div>
+    <br />
     <p>
       The genetic causes of CF are linked to the mutation of a single gene, the
       cftr (cystic fibrosis transmembrane conductance regulator) gene. This gene
@@ -148,6 +165,12 @@ export default {};
 .alx_part_title {
   font-size: 24px;
 }
+.alx_page_schema {
+  width: 40vw;
+}
+.alx_page_schema_desciption {
+  font-style: italic;
+}
 
 // ALX BANNER
 .alx_banner {
@@ -196,13 +219,6 @@ a {
 }
 
 // ALX OVERVIEW PART
-
-.alx_page_first_schema {
-  width: 40vw;
-}
-.alx_page_first_schema_desciption {
-  font-style: italic;
-}
 .alx_page_second_schema {
   width: 60vw;
   margin: 0 auto;
