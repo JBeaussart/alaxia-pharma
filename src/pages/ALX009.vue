@@ -56,7 +56,7 @@
     </p>
     <br />
     <div>
-      <p class="alx_page_schema_desciption">
+      <p class="alx_page_schema_description">
         Impaired OSCN- and lactoferrin in CF patients lungs’ defense
       </p>
       <img
