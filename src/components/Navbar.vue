@@ -16,7 +16,7 @@
       <li><router-link to="/contact">CONTACT</router-link></li>
       <li>
         <router-link to="/"
-          ><img class="logo" src="../assets/logo.jpeg" alt="logo alaxia"
+          ><img class="logo" src="../assets/logo.jpg" alt="logo alaxia"
         /></router-link>
       </li>
     </ul>

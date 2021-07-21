@@ -24,7 +24,7 @@
   <br />
   <!-- OVERVIEW PART -->
   <div id="overview" class="container alx_overview">
-    <h2 class="alx_overview_title">OVERVIEW</h2>
+    <h2 class="alx_part_title">OVERVIEW</h2>
     <br />
     <br />
     <h3>ALX-009 scientific and medical rationale.</h3>
@@ -49,7 +49,7 @@
       </p>
       <img
         class="alx_page_first_schema"
-        src="../assets/alx_page_first_schemajpg.jpeg"
+        src="../assets/alx_page_first_schemajpg.jpg"
         alt=""
       />
     </div>
@@ -82,7 +82,7 @@
       <a target="_blank" href="https://vimeo.com/243802312"
         ><img
           class="alx_page_second_schema"
-          src="../assets/alx_page_second_schemajpg.jpeg"
+          src="../assets/alx_page_second_schemajpg.jpg"
           alt=""
       /></a>
     </div>
@@ -91,7 +91,8 @@
   <br />
   <!-- EFFICACY PART -->
   <div id="efficacy" class="container efficacy">
-    <h2>EFFICACY</h2>
+    <h2 class="alx_part_title">EFFICACY</h2>
+    <br />
     <h3>
       ALX-009 (OSCN-/bLF) – a therapeutic option to fight broader bacterial
       infections
@@ -113,7 +114,8 @@
   <br />
   <br />
   <div id="further_reading" class="container further_reading">
-    <h2>FURTHER READING</h2>
+    <h2 class="alx_part_title">FURTHER READING</h2>
+    <br />
     <h3>
       The lactoperoxidase system functions in bacterial clearance of airways.
     </h3>
@@ -139,9 +141,15 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+// GENERAL STYLE OF PAGE
 .container {
   text-align: justify;
 }
+.alx_part_title {
+  font-size: 24px;
+}
+
+// ALX BANNER
 .alx_banner {
   position: relative;
   height: 250px;
@@ -187,9 +195,8 @@ a {
   }
 }
 
-.alx_overview_title {
-  font-size: 24px;
-}
+// ALX OVERVIEW PART
+
 .alx_page_first_schema {
   width: 40vw;
 }
@@ -200,4 +207,6 @@ a {
   width: 60vw;
   margin: 0 auto;
 }
+
+// ALX EFFICACY PART
 </style>
