@@ -29,8 +29,8 @@ export default {};
 
 <style lang="scss" scoped>
 nav {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   margin-bottom: 40px;
   border-bottom: 2px solid #025293;
   ul {
