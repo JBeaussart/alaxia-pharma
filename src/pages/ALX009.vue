@@ -1,14 +1,17 @@
 <template>
   <div class="alx_banner">
     <div class="alx_banner_content container">
-      <h2>ALX009</h2>
-      <p>
+      <h2 class="alx_banner_content_title">ALX009</h2>
+      <br />
+
+      <p class="alx_banner_content_description">
         ALX-009 is a first-in class orphan drug candidate for Cystic Fibrosis
-        (CF) patients. It consists in the combination of two endogenous
-        substances, hypothiocyanite (OSCN-) and lactoferrin, exhibiting
-        antimicrobial properties compensating the defective innate immune system
-        in CF patients. ALX-009 is presented as a solution for inhalation for
-        the symptomatic treatment of lung infections.
+        (CF) patients. <br /><br />
+        It consists in the combination of two endogenous substances,
+        hypothiocyanite (OSCN-) and lactoferrin, exhibiting antimicrobial
+        properties compensating the defective innate immune system in CF
+        patients. ALX-009 is presented as a solution for inhalation for the
+        symptomatic treatment of lung infections.
       </p>
     </div>
     <div class="btn container">
@@ -101,14 +104,25 @@ export default {};
     color: white;
   }
 }
+.alx_banner_content_title {
+  font-size: 36px;
+}
+.alx_banner_content_description {
+  text-align: justify;
+  font-size: 14px;
+}
 .btn {
   position: absolute;
   bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 8px;
 }
 a {
+  text-decoration: none;
   cursor: pointer;
   opacity: 0.8;
   background: white;
