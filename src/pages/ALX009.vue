@@ -97,39 +97,84 @@
   <div id="efficacy" class="container efficacy">
     <h2 class="alx_part_title">EFFICACY</h2>
     <br />
-    <h3>
-      ALX-009 (OSCN-/bLF) – a therapeutic option to fight broader bacterial
-      infections
-    </h3>
+    <section>
+      <h3>
+        ALX-009 (OSCN-/bLF) – a therapeutic option to fight broader bacterial
+        infections
+      </h3>
+      <br />
+      <div>
+        <p class="alx_page_schema_description">
+          Tests performed by Alaxia or in collaboration with Queen’s University
+          Belfast or Colorado State University
+        </p>
+        <img
+          class="alx_page_schema"
+          src="../assets/alx_page__efficacy_first_schemajpg.png"
+          alt=""
+        />
+      </div>
+    </section>
+
     <br />
-    <div>
-      <p class="alx_page_schema_desciption">
-        Tests performed by Alaxia or in collaboration with Queen’s University
-        Belfast or Colorado State University
+    <br />
+
+    <section>
+      <h3>
+        Time killing profile of ALX-009 against emergent Cystic Fibrosis
+        pathogens or Selected agent
+      </h3>
+      <br />
+      <p class="alx_page_schema_description">
+        Achromobacter spp, Pseudomonas aeruginosa, Burkholderia cepacia complex,
+        Stenotrophomonas maltophilia, Burkholderia pseudomallei
       </p>
-      <img
-        class="alx_page_schema"
-        src="../assets/alx_page__efficacy_first_schemajpg.png"
-        alt=""
-      />
-    </div>
+      <div class="img_efficacy">
+        <img
+          class="alx_page_schema_small"
+          src="../assets/alx_page__efficacy_second_schemajpg.jpg"
+          alt=""
+        />
+        <img
+          class="alx_page_schema_small"
+          src="../assets/alx_page__efficacy_third_schemajpg.jpg"
+          alt=""
+        />
+      </div>
+    </section>
     <br />
-    <p>
-      The genetic causes of CF are linked to the mutation of a single gene, the
-      cftr (cystic fibrosis transmembrane conductance regulator) gene. This gene
-      codes for the CFTR membrane proteins involved in the ion exchange between
-      the cell and the lumen. In the lung, ionic equilibrium is important to
-      preserve the protective action of the Airway Surface Liquid (ASL) and
-      mucus. However, in CF patients, ASL, mucus volumes and compositions are
-      modified. The ASL normally contains bactericidal/bacteriostatic products
-      in solution that are less or not present in the ASL of CF patients. In
-      addition, the volume of the ASL of CF patients is reduced with increased
-      salt content; both factors dehydrate the mucus that becomes thick and
-      accumulates at the surface of cells.
-    </p>
+    <br />
+    <section>
+      <h3>ALX-009 (OSCN-/bLF) – bactericidal effect in biological matrices</h3>
+      <br />
+      <p class="alx_page_schema_description">
+        In contrast with antibiotics, ALX-009 activity is not altered by complex
+        structures such as biofilm and/or sputum that are present in lung
+        infections
+      </p>
+      <div class="img_efficacy">
+        <img
+          class="alx_page_schema_small"
+          src="../assets/alx_page__efficacy_fourth_schemajpg.jpg"
+          alt=""
+        />
+        <img
+          class="alx_page_schema_small"
+          src="../assets/alx_page__efficacy_six_schemajpg.jpg"
+          alt=""
+        />
+      </div>
+      <p>
+        ALX-009 kills bacteria embedded in P. aeruginosa biofilms at
+        concentrations similar to planktonic cultures. Presence of bLF allows
+        decreasing OSCN- dose
+      </p>
+    </section>
   </div>
   <br />
   <br />
+
+  <!-- FURTHER READING PART -->
   <div id="further_reading" class="container further_reading">
     <h2 class="alx_part_title">FURTHER READING</h2>
     <br />
@@ -168,7 +213,10 @@ export default {};
 .alx_page_schema {
   width: 40vw;
 }
-.alx_page_schema_desciption {
+.alx_page_schema_small {
+  width: 30vw;
+}
+.alx_page_schema_description {
   font-style: italic;
 }
 
@@ -222,6 +270,10 @@ a {
 .alx_page_second_schema {
   width: 60vw;
   margin: 0 auto;
+}
+.img_efficacy {
+  display: flex;
+  justify-content: space-around;
 }
 
 // ALX EFFICACY PART
