@@ -35,7 +35,9 @@
   <!-- OVERVIEW PART -->
 
   <div id="overview" class="container alx_overview">
-    <h2 class="alx_part_title">OVERVIEW</h2>
+    <h2 class="alx_part_title">
+      <i class="fas fa-binoculars banner_icon"></i> OVERVIEW
+    </h2>
     <br />
     <h3>ALX-009 scientific and medical rationale.</h3>
     <p>
@@ -103,7 +105,10 @@
   <!-- EFFICACY PART -->
 
   <div id="efficacy" class="container efficacy">
-    <h2 class="alx_part_title">EFFICACY</h2>
+    <h2 class="alx_part_title">
+      <i class="fas fa-bolt banner_icon"></i>
+      EFFICACY
+    </h2>
     <br />
     <section>
       <h3>
@@ -184,7 +189,10 @@
 
   <!-- FURTHER READING PART -->
   <div id="further_reading" class="container further_reading">
-    <h2 class="alx_part_title">FURTHER READING</h2>
+    <h2 class="alx_part_title">
+      <i class="fas fa-book-open banner_icon"></i>
+      FURTHER READING
+    </h2>
     <br />
     <article>
       <h3>
@@ -453,7 +461,9 @@ a {
     opacity: 0.6;
   }
 }
-
+.banner_icon {
+  font-size: 24px;
+}
 // ALX OVERVIEW PART
 .alx_page_second_schema {
   width: 60vw;
