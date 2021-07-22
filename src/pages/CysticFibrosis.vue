@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>CysticFibrosis</h1>
+    <h1>CYSTIC FIBROSIS</h1>
     <br />
     <p>
       Cystic fibrosis (CF) is the most common inherited life-limiting genetic

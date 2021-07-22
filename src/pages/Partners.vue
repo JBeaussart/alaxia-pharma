@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Partners</h1>
+    <h1>PARTNERS</h1>
 
     <hr />
     <div class="partners">
