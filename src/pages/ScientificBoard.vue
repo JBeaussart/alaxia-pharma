@@ -8,8 +8,8 @@
           <h2 class="card_id_text_name">Isabelle Durieu</h2>
           <p class="card_id_text_position">MD, PhD</p>
           <p class="card_id_text_work">
-            Professor of Internal Medicine, Lyon, France Director Lyon Adult
-            Cystic Fibrosis Centre
+            Professor of Internal Medicine, Lyon, France <br />
+            Director Lyon Adult Cystic Fibrosis Centre
           </p>
         </div>
         <div class="card_id_avatar">
@@ -59,7 +59,6 @@ h1 {
   align-items: center;
 }
 .card_id_text_work {
-  width: 300px;
   font-size: 10px;
 }
 .card_id_text_name {
