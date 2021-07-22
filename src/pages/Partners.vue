@@ -109,4 +109,7 @@ h1 {
 img {
   margin-right: 32px;
 }
+hr {
+  border-top: 1px solid #025293;
+}
 </style>
