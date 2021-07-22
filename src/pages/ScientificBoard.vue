@@ -16,7 +16,7 @@
           <img
             class="card_id_avatar_img"
             src="../assets/scientific_board/Isabelle-Durieu.png"
-            alt=""
+            alt="avatar"
           />
         </div>
       </div>
