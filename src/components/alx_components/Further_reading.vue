@@ -258,4 +258,7 @@ article h3 {
 .banner_icon {
   font-size: 24px;
 }
+hr {
+  border-top: 1px dashed #025293;
+}
 </style>

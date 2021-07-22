@@ -7,14 +7,26 @@
   <Overview />
   <br />
   <br />
+  <div class="container">
+    <hr />
+  </div>
+  <br />
+  <br />
 
   <!-- EFFICACY PART -->
   <Efficacy />
   <br />
   <br />
+  <div class="container">
+    <hr />
+  </div>
+  <br />
+  <br />
 
   <!-- FURTHER READING PART -->
   <FurtherReading />
+  <br />
+  <br />
   <br />
   <br />
 </template>
@@ -34,4 +46,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+hr {
+  border-top: 2px solid #025293;
+}
+</style>
