@@ -26,7 +26,7 @@
       </p>
       <img
         class="alx_page_schema"
-        src="../assets/alx_page/alx_page_first_schemajpg.jpg"
+        src="../../assets/alx_page/alx_page_first_schemajpg.jpg"
         alt=""
       />
     </div>
@@ -71,14 +71,6 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.alx_page_second_schema {
-  width: 60vw;
-  margin: 0 auto;
-}
-.img_efficacy {
-  display: flex;
-  justify-content: space-around;
-}
 .container {
   text-align: justify;
 }
@@ -88,10 +80,13 @@ export default {};
 .alx_page_schema {
   width: 40vw;
 }
-.alx_page_schema_small {
-  width: 30vw;
+.alx_page_second_schema {
+  width: 60vw;
 }
 .alx_page_schema_description {
   font-style: italic;
+}
+.banner_icon {
+  font-size: 24px;
 }
 </style>

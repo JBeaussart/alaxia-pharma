@@ -17,15 +17,15 @@
     <div class="btn container">
       <p>
         <a href="#overview"
-          ><i class="fas fa-binoculars btn_icon"></i> Overview</a
+          ><i class="fas fa-binoculars btn_icon"></i>Overview</a
         >
       </p>
       <p>
-        <a href="#efficacy"><i class="fas fa-bolt btn_icon"></i> Efficacy</a>
+        <a href="#efficacy"><i class="fas fa-bolt btn_icon"></i>Efficacy</a>
       </p>
       <p>
         <a href="#further_reading"
-          ><i class="fas fa-book-open btn_icon"></i> Further reading</a
+          ><i class="fas fa-book-open btn_icon"></i>Further reading</a
         >
       </p>
     </div>
@@ -87,5 +87,6 @@ a {
 .btn_icon {
   transform: translateY(2px);
   font-size: 16px;
+  margin-right: 4px;
 }
 </style>

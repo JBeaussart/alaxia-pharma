@@ -5,6 +5,9 @@
       FURTHER READING
     </h2>
     <br />
+    <br />
+    <hr />
+    <br />
     <article>
       <h3>
         The lactoperoxidase system functions in bacterial clearance of airways.
@@ -15,7 +18,8 @@
         Cell Mol Biol. 2000 Jun;22(6):665-71.
       </p>
     </article>
-
+    <br />
+    <hr />
     <br />
 
     <article>
@@ -28,6 +32,8 @@
       </p>
     </article>
 
+    <br />
+    <hr />
     <br />
 
     <article>
@@ -42,6 +48,8 @@
     </article>
 
     <br />
+    <hr />
+    <br />
 
     <article>
       <h3>Lactoperoxidase and human airway host defense.</h3>
@@ -51,6 +59,8 @@
       </p>
     </article>
 
+    <br />
+    <hr />
     <br />
 
     <article>
@@ -65,6 +75,8 @@
     </article>
 
     <br />
+    <hr />
+    <br />
 
     <article>
       <h3>
@@ -76,6 +88,8 @@
       </p>
     </article>
 
+    <br />
+    <hr />
     <br />
 
     <article>
@@ -90,6 +104,8 @@
     </article>
 
     <br />
+    <hr />
+    <br />
 
     <article>
       <h3>
@@ -103,6 +119,8 @@
     </article>
 
     <br />
+    <hr />
+    <br />
 
     <article>
       <h3>
@@ -115,6 +133,8 @@
       </p>
     </article>
 
+    <br />
+    <hr />
     <br />
 
     <article>
@@ -130,12 +150,16 @@
     </article>
 
     <br />
+    <hr />
+    <br />
 
     <article>
       <h3>Mechanisms and function of DUOX in epithelia of the lung.</h3>
       <p>Fischer H. Antioxid. 2009 Oct; 11(10):2453-65.</p>
     </article>
 
+    <br />
+    <hr />
     <br />
 
     <article>
@@ -146,6 +170,8 @@
       <p>Chandler JD, Day BJ. Biochem Pharmacol. 2012 Dec 1;84(11):1381-7.</p>
     </article>
 
+    <br />
+    <hr />
     <br />
 
     <article>
@@ -160,6 +186,8 @@
     </article>
 
     <br />
+    <hr />
+    <br />
 
     <article>
       <h3>
@@ -172,6 +200,8 @@
       </p>
     </article>
 
+    <br />
+    <hr />
     <br />
 
     <article>
@@ -187,6 +217,8 @@
     </article>
 
     <br />
+    <hr />
+    <br />
 
     <article>
       <h3>
@@ -199,6 +231,8 @@
       </p>
     </article>
 
+    <br />
+    <hr />
     <br />
   </div>
 </template>
@@ -214,19 +248,14 @@ export default {};
 .alx_part_title {
   font-size: 24px;
 }
-.alx_page_schema {
-  width: 40vw;
-}
-.alx_page_schema_small {
-  width: 30vw;
-}
-.alx_page_schema_description {
-  font-style: italic;
-}
+
 article p {
   font-style: italic;
 }
 article h3 {
   font-size: 14px;
+}
+.banner_icon {
+  font-size: 24px;
 }
 </style>
