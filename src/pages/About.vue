@@ -14,9 +14,11 @@
     <h2>ALX-009 Cystic Fibrosis</h2>
     <br />
     <p>
+      First-in-class orphan drug. <br />
       Targets multi-drug-resistant (MDR) bacterial infections not treatable by
-      current antibiotic therapies. Ready-to-inhale combination of two
-      endogenous substances contribution to the innate immune system response.
+      current antibiotic therapies. <br />
+      Ready-to-inhale combination of two endogenous substances contribution to
+      the innate immune system response. <br />
       Innovative mode of action: Activity unaffected by CF patient’s sputum and
       no emergence of bacterial resistance.
     </p>
@@ -35,6 +37,12 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+h2:first-child {
+  font-size: 32px;
+}
+h2 {
+  font-size: 16px;
+}
 h2,
 p {
   text-align: left;
