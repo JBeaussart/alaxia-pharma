@@ -6,7 +6,7 @@
       <div class="card_id">
         <div class="card_id_text">
           <h2 class="card_id_text_name">Isabelle Durieu</h2>
-          <p class="card_id_text_position">MD, PhD</p>
+          <p class="card_id_text_post">MD, PhD</p>
           <p class="card_id_text_work">
             Professor of Internal Medicine, Lyon, France <br />
             Director Lyon Adult Cystic Fibrosis Centre
@@ -66,7 +66,7 @@ h1 {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
-.card_id_text_position {
+.card_id_text_post {
   font-size: 10px;
   font-style: italic;
   margin-bottom: 4px;
