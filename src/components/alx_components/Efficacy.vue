@@ -11,6 +11,7 @@
         infections
       </h3>
       <br />
+      <br />
       <div>
         <p class="alx_page_schema_description">
           Tests performed by Alaxia or in collaboration with Queen’s University
@@ -24,6 +25,7 @@
       </div>
     </section>
 
+    <br />
     <br />
     <br />
 
@@ -108,5 +110,8 @@ export default {};
 }
 .banner_icon {
   font-size: 24px;
+}
+h3 {
+  font-size: 16px;
 }
 </style>
