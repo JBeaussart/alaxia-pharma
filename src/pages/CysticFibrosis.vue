@@ -29,7 +29,9 @@
       life.
     </p>
     <br />
-    <a href="https://www.cff.org/What-is-CF/About-Cystic-Fibrosis/"
+    <a
+      target="_blank"
+      href="https://www.cff.org/What-is-CF/About-Cystic-Fibrosis/"
       >More info on CF</a
     >
     <br />
