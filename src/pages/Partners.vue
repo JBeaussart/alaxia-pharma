@@ -4,7 +4,10 @@
 
     <hr />
     <div class="partners">
-      <img class="logo_partners" src="../assets/partners/stragen.png" alt="" />
+      <a target="_blank" href="https://www.stragen.ch/"
+        ><img class="logo_partners" src="../assets/partners/stragen.png" alt=""
+      /></a>
+
       <p>
         Stragen is a privately-owned, international healthcare company based in
         Geneva (Switzerland). Founded in 1990, Stragen Healthcare Group
@@ -21,11 +24,16 @@
 
     <hr />
     <div class="partners">
-      <img
-        class="logo_partners"
-        src="../assets/partners/lyonbiopole.png"
-        alt=""
-      />
+      <a
+        target="_blank"
+        href="https://lyonbiopole.com/en/lyonbiopole/about-lyonbiopole"
+      >
+        <img
+          class="logo_partners"
+          src="../assets/partners/lyonbiopole.png"
+          alt=""
+      /></a>
+
       <p>
         Lyonbiopole is the one-stop shop for healthcare innovation in
         Rhône-Alpes, France. It aims at supporting the emergence and development
@@ -36,11 +44,13 @@
 
     <hr />
     <div class="partners">
-      <img
-        class="logo_partners"
-        src="../assets/partners/bpifrance.png"
-        alt=""
-      />
+      <a target="_blank" href="https://www.bpifrance.fr/Bpifrance/Notre-mission"
+        ><img
+          class="logo_partners"
+          src="../assets/partners/bpifrance.png"
+          alt=""
+      /></a>
+
       <p>
         Bpifrance finances businesses from the seed phase to transfer to stock
         exchange listing, through loans, guarantees and equity. Bpifrance has
@@ -52,11 +62,13 @@
 
     <hr />
     <div class="partners">
-      <img
-        class="logo_partners"
-        src="../assets/partners/cystic_fibrosis_foundation.png"
-        alt=""
-      />
+      <a href="https://www.cff.org/" target="_blank">
+        <img
+          class="logo_partners"
+          src="../assets/partners/cystic_fibrosis_foundation.png"
+          alt=""
+      /></a>
+
       <p>
         The mission of the Cystic Fibrosis Foundation is to cure cystic fibrosis
         and to provide all people with the disease the opportunity to lead full,
@@ -68,7 +80,12 @@
 
     <hr />
     <div class="partners">
-      <img class="logo_partners" src="../assets/partners/iABC.png" alt="" />
+      <a
+        target="_blank"
+        href="https://www.imi.europa.eu/projects-results/project-factsheets/iabc"
+        ><img class="logo_partners" src="../assets/partners/iABC.png" alt=""
+      /></a>
+
       <p>
         Respiratory infections, frequently caused by drug-resistant bacteria,
         are the main cause of disease and death in people with cystic fibrosis
