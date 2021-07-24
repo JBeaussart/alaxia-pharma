@@ -2,7 +2,9 @@
   <div class="container">
     <h1>SCIENTIFIC BOARD</h1>
 
+    <!-- Isabelle Durieu -->
     <div class="card">
+      <hr />
       <div class="card_id">
         <div class="card_id_text">
           <h2 class="card_id_text_name">Isabelle Durieu</h2>
@@ -35,6 +37,194 @@
         internationally on issues related to CF. She has had 20 years of
         experience with CF clinical care.
       </p>
+      <hr />
+    </div>
+
+    <!-- Diana Elizabeth Tullis -->
+    <div class="card">
+      <div class="card_id">
+        <div class="card_id_text">
+          <h2 class="card_id_text_name">Diana Elizabeth Tullis</h2>
+          <p class="card_id_text_post">MD, FRCPC</p>
+          <p class="card_id_text_work">
+            Professor of Medicine, Toronto, Canada <br />
+            Director Toronto Adult Cystic Fibrosis Centre <br />
+            Associate Scientist, Li Ka Shing Knowledge Institute
+          </p>
+        </div>
+        <div class="card_id_avatar">
+          <img
+            class="card_id_avatar_img"
+            src="../assets/scientific_board/diana-elizabeth-tullis.png"
+            alt="avatar"
+          />
+        </div>
+      </div>
+      <p class="card_description">
+        As the Director of the Toronto Adult Cystic Fibrosis Clinic at St.
+        Michael’s Hospital, Dr Tullis is responsible for the care of 450 adults
+        with CF. Dr Tullis is a Professor of Medicine at the University of
+        Toronto, the Respirology Division Head at St. Michael’s Hospital, and an
+        Adjunct Scientist at the Keenan Research Centre of Li Ka Shing Knowledge
+        Institute. Dr Tullis is the Cystic Fibrosis Canada Chair in Adult CF
+        Research.
+        <br />
+        <br />
+        Dr Tullis has published over 100 articles and book chapters and has
+        lectured nationally and internationally on issues related to CF in
+        adults. She has had 25 years of experience with CF clinical care. She
+        was the Chair of the Clinic Subcommittee of the Medical/Scientific
+        Advisory Board of Cystic Fibrosis Canada from 2005-2011 and in 2010 was
+        a Coach for the Adult Quality Improvement Program run by the American
+        Cystic Fibrosis Foundation.
+      </p>
+      <br />
+      <a
+        target="_blank"
+        href="http://stmichaelshospitalresearch.ca/researchers/diana-elizabeth-tullis/"
+        >http://stmichaelshospitalresearch.ca/researchers/diana-elizabeth-tullis/</a
+      >
+      <hr />
+    </div>
+
+    <!-- Pavel Drevinek -->
+    <div class="card">
+      <div class="card_id">
+        <div class="card_id_text">
+          <h2 class="card_id_text_name">Pavel Drevinek</h2>
+          <p class="card_id_text_post">MD, PhD</p>
+          <p class="card_id_text_work">
+            Associate Professor of Medical Microbiology, Prague, CZ <br />
+            Head of microbiology department
+          </p>
+        </div>
+        <div class="card_id_avatar">
+          <img
+            class="card_id_avatar_img"
+            src="../assets/scientific_board/Pavel-Drevinek.png"
+            alt="avatar"
+          />
+        </div>
+      </div>
+      <p class="card_description">
+        As the Lead Microbiologist of the Prague Cystic Fibrosis Centre, Dr
+        Drevinek dedicated his research career to studying the epidemiology,
+        improving the diagnostics and understanding the pathophysiology of the
+        Bcc infections in CF. Dr Drevinek is an active member of International
+        B.cepacia working group and member of the board of the European Cystic
+        Fibrosis Society.
+        <br />
+        <br />
+        Dr Drevinek, leading physician at the Prague CF center in regards to
+        clinical trials, has published over 50 articles and book chapters and
+        has lectured nationally and internationally on issues related to CF.Dr
+        Drevinek is the coordinator of ECFS Standards of care Project.
+      </p>
+      <br />
+      <hr />
+
+      <!-- Michael Tunney -->
+      <div class="card">
+        <div class="card_id">
+          <div class="card_id_text">
+            <h2 class="card_id_text_name">Michael Tunney</h2>
+            <p class="card_id_text_post">PhD</p>
+            <p class="card_id_text_work">
+              Professor of Clinical Pharmacy, <br />
+              Queen’s University Belfast, UK
+            </p>
+          </div>
+          <div class="card_id_avatar">
+            <img
+              class="card_id_avatar_img"
+              src="../assets/scientific_board/michael-tunney.png"
+              alt="avatar"
+            />
+          </div>
+        </div>
+        <p class="card_description">
+          Professor Michael Tunney is a Chair in Clinical Pharmacy at the School
+          of Pharmacy, Queen’s University Belfast. He has an international track
+          record in lung microbiome research with his translational research
+          programme focusing primarily on the improved detection and treatment
+          of lung infection in patients with respiratory diseases such as cystic
+          fibrosis (CF), non-CF bronchiectasis and COPD. He has published over
+          100 research papers in peer-reviewed journals and serves on a number
+          of scientific advisory boards as well as editorial boards.
+        </p>
+        <br />
+        <hr />
+      </div>
+    </div>
+
+    <!-- Annie-Claude Benichou -->
+    <div class="card">
+      <div class="card_id">
+        <div class="card_id_text">
+          <h2 class="card_id_text_name">Annie-Claude Benichou</h2>
+          <p class="card_id_text_post">MD</p>
+          <p class="card_id_text_work">
+            Chief Medical Officer, <br />
+            Alaxia, Stragen Healthcare Group
+          </p>
+        </div>
+        <div class="card_id_avatar">
+          <img
+            class="card_id_avatar_img"
+            src="../assets/scientific_board/annie-claude-benichou.png"
+            alt="avatar"
+          />
+        </div>
+      </div>
+      <p class="card_description">
+        Dr. Benichou has more than 23 years of experience in the management of
+        clinical development of drugs and high-tech medical devices in Europe
+        and in the USA. After she earned a medical degree from the University of
+        Toulouse in France, she obtained inter-university degrees in methodology
+        for clinical development, in pharmacovigilance, and in
+        pharmaco-epidemiology. In 2004, she joined the Stragen Group for the
+        clinical development of an orphan drug in onco-hematology (FDA approved
+        in 2012) as well as for project coordination with the European Medicines
+        Agency, and endorsed the Global Qualified Person for Pharmacovigilance
+        role and responsibilities since 2007. She is now managing a sister
+        company within the Stragen Group, dedicated to services in clinical
+        development strategy and pharmacovigilance. She has the CMO position
+        within Alaxia’s development team since January 2011.
+      </p>
+      <br />
+      <hr />
+    </div>
+
+    <!-- Victor Juarez-Perez -->
+    <div class="card">
+      <div class="card_id">
+        <div class="card_id_text">
+          <h2 class="card_id_text_name">Victor Juarez-Perez</h2>
+          <p class="card_id_text_post">PhD, MBA</p>
+          <p class="card_id_text_work">
+            Scientific Adviser, <br />
+            Stragen Healthcare Group
+          </p>
+        </div>
+        <div class="card_id_avatar">
+          <img
+            class="card_id_avatar_img"
+            src="../assets/scientific_board/victor-juarez-perez.png"
+            alt="avatar"
+          />
+        </div>
+      </div>
+      <p class="card_description">
+        Doctor Victor Juarez-Perez is the Scientific Advisor of the Stragen
+        Healthcare Group and responsible of the preclinical development of drug
+        candidates. He has an experience on translational research acquired on
+        international and multidisciplinary innovative driven programs in
+        diverse areas as gene therapy, immunology and microbiology. He has
+        published about 15 papers in peer-reviewed journals and serves as
+        reviewer for technological transfer offices in France and Latin-America.
+      </p>
+      <br />
+      <hr />
     </div>
   </div>
 </template>
@@ -73,5 +263,10 @@ h1 {
 }
 .card_id_avatar_img {
   width: 120px;
+}
+hr {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-top: 1px solid #025293;
 }
 </style>
