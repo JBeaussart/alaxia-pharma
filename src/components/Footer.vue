@@ -37,7 +37,7 @@ export default {};
 
 <style lang="scss" scoped>
 .footer_container {
-  background-color: rgb(220, 220, 220);
+  background-color: rgba($color: #5698ce, $alpha: 0.4);
   padding-top: 20px;
   padding-bottom: 20px;
 }

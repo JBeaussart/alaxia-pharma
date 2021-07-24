@@ -3,7 +3,9 @@
     <ul class="container">
       <li><router-link to="/">ABOUT</router-link></li>
       <li><router-link to="/alx-009">ALX-009</router-link></li>
-      <li><router-link to="/cystic-fibrosis">CYSTIC FIBROSIS</router-link></li>
+      <li>
+        <router-link to="/cystic-fibrosis">CYSTIC FIBROSIS</router-link>
+      </li>
       <li><router-link to="/partners">PARTNERS</router-link></li>
       <li>
         <router-link to="/scientific-board">SCIENTIFIC BOARD</router-link>
@@ -29,9 +31,12 @@ export default {};
 
 <style lang="scss" scoped>
 nav {
+  background: #fff;
+  z-index: 300;
+  position: sticky;
+  top: 0;
   padding-top: 8px;
   padding-bottom: 8px;
-  margin-bottom: 40px;
   border-bottom: 2px solid #025293;
   ul {
     display: flex;
@@ -46,11 +51,11 @@ nav {
         font-size: 10px;
       }
       a:active {
-        color: #3bb8e3;
+        text-decoration: underline;
         font-weight: bolder;
       }
       a:focus {
-        color: #3bb8e3;
+        text-decoration: underline;
         font-weight: bolder;
       }
     }
