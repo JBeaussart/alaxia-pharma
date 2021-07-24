@@ -1,12 +1,14 @@
 <template>
   <Navbar />
-  <router-view></router-view>
+  <div class="main">
+    <router-view></router-view>
+  </div>
   <Footer />
 </template>
 
 <script setup>
-import Navbar from './components/Navbar.vue';
-import Footer from './components/Footer.vue';
+import Navbar from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
 
 // This starter template is using Vue 3 experimental <script setup> SFCs
 // Check out https://github.com/vuejs/rfcs/blob/master/active-rfcs/0040-script-setup.md
@@ -14,10 +16,10 @@ import Footer from './components/Footer.vue';
 
 <style>
 /* IMPORT FONT FAMILY LATO FROM GOOGLE FONT */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 /* IMPORT FONT AWESOME */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 
 /* GENERAL SETTINGS */
 * {
@@ -38,5 +40,10 @@ import Footer from './components/Footer.vue';
 .container {
   width: 65%;
   margin: 0 auto;
+}
+.main {
+  background-color: #f9fcff;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 </style>
