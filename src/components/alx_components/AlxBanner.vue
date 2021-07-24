@@ -44,7 +44,7 @@ export default {};
   position: relative;
   height: 250px;
   margin-top: -40px;
-  background-color: #025293;
+  background-color: #205785;
   padding-top: 36px;
   padding-bottom: 36px;
   h2,

@@ -31,7 +31,7 @@ export default {};
 
 <style lang="scss" scoped>
 nav {
-  background: linear-gradient(to right, #5698ce, #fff 70%);
+  background: #fff;
   z-index: 300;
   position: sticky;
   top: 0;
