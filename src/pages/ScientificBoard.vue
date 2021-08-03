@@ -1,91 +1,8 @@
 <template>
   <div class="container">
     <h1>SCIENTIFIC BOARD</h1>
-
+    <Card />
     <!-- Isabelle Durieu -->
-    <div class="card">
-      <hr />
-      <div class="card_id">
-        <div class="card_id_text">
-          <h2 class="card_id_text_name">Isabelle Durieu</h2>
-          <p class="card_id_text_post">MD, PhD</p>
-          <p class="card_id_text_work">
-            Professor of Internal Medicine, Lyon, France <br />
-            Director Lyon Adult Cystic Fibrosis Centre
-          </p>
-        </div>
-        <div class="card_id_avatar">
-          <img
-            class="card_id_avatar_img"
-            src="../assets/scientific_board/Isabelle-Durieu.png"
-            alt="avatar"
-          />
-        </div>
-      </div>
-      <p class="card_description">
-        As the Director of the Lyon Adult Cystic Fibrosis Clinic at Centre
-        Hospitalier Lyon Sud, Dr Durieu is responsible for the care of more than
-        300 adults with CF. Dr. Durieu is a Professor of Internal Medicine at
-        the University of Lyon and Head, department of internal medicine, South
-        Hospital of Lyon. Dr Durieu is the President of the French Cystic
-        Fibrosis society and member of the European Cystic Fibrosis scientific
-        committee.
-        <br />
-        <br />
-        Dr Durieu, reviewer for International Journal, has published over 100
-        articles and book chapters and has lectured nationally and
-        internationally on issues related to CF. She has had 20 years of
-        experience with CF clinical care.
-      </p>
-      <hr />
-    </div>
-
-    <!-- Diana Elizabeth Tullis -->
-    <div class="card">
-      <div class="card_id">
-        <div class="card_id_text">
-          <h2 class="card_id_text_name">Diana Elizabeth Tullis</h2>
-          <p class="card_id_text_post">MD, FRCPC</p>
-          <p class="card_id_text_work">
-            Professor of Medicine, Toronto, Canada <br />
-            Director Toronto Adult Cystic Fibrosis Centre <br />
-            Associate Scientist, Li Ka Shing Knowledge Institute
-          </p>
-        </div>
-        <div class="card_id_avatar">
-          <img
-            class="card_id_avatar_img"
-            src="../assets/scientific_board/diana-elizabeth-tullis.png"
-            alt="avatar"
-          />
-        </div>
-      </div>
-      <p class="card_description">
-        As the Director of the Toronto Adult Cystic Fibrosis Clinic at St.
-        Michael’s Hospital, Dr Tullis is responsible for the care of 450 adults
-        with CF. Dr Tullis is a Professor of Medicine at the University of
-        Toronto, the Respirology Division Head at St. Michael’s Hospital, and an
-        Adjunct Scientist at the Keenan Research Centre of Li Ka Shing Knowledge
-        Institute. Dr Tullis is the Cystic Fibrosis Canada Chair in Adult CF
-        Research.
-        <br />
-        <br />
-        Dr Tullis has published over 100 articles and book chapters and has
-        lectured nationally and internationally on issues related to CF in
-        adults. She has had 25 years of experience with CF clinical care. She
-        was the Chair of the Clinic Subcommittee of the Medical/Scientific
-        Advisory Board of Cystic Fibrosis Canada from 2005-2011 and in 2010 was
-        a Coach for the Adult Quality Improvement Program run by the American
-        Cystic Fibrosis Foundation.
-      </p>
-      <br />
-      <a
-        target="_blank"
-        href="http://stmichaelshospitalresearch.ca/researchers/diana-elizabeth-tullis/"
-        >http://stmichaelshospitalresearch.ca/researchers/diana-elizabeth-tullis/</a
-      >
-      <hr />
-    </div>
 
     <!-- Pavel Drevinek -->
     <div class="card">
@@ -230,7 +147,12 @@
 </template>
 
 <script>
-export default {};
+import Card from "../components/ScientificBoard/Card.vue";
+export default {
+  components: {
+    Card,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
