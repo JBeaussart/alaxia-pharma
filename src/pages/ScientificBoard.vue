@@ -2,8 +2,6 @@
   <div class="container">
     <h1>SCIENTIFIC BOARD</h1>
     <Card />
-    <!-- Isabelle Durieu -->
-
     <!-- Pavel Drevinek -->
     <div class="card">
       <div class="card_id">
