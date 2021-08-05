@@ -38,7 +38,7 @@ export default {};
 
 <style lang="scss" scoped>
 h2:first-child {
-  font-size: 32px;
+  font-size: 42px;
 }
 h2 {
   font-size: 16px;

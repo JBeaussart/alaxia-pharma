@@ -53,7 +53,7 @@ export default {};
   }
 }
 .alx_banner_content_title {
-  font-size: 36px;
+  font-size: 42px;
 }
 .alx_banner_content_description {
   text-align: justify;

@@ -182,7 +182,7 @@ export default {};
   text-align: justify;
 }
 h2 {
-  font-size: 32px;
+  font-size: 42px;
 }
 span {
   margin-left: 24px;

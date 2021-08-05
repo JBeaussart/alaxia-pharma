@@ -147,6 +147,6 @@ export default {};
   text-align: justify;
 }
 h2 {
-  font-size: 32px;
+  font-size: 42px;
 }
 </style>
