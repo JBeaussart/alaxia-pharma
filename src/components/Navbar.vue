@@ -48,7 +48,7 @@ nav {
       a {
         text-decoration: none;
         color: #025293;
-        font-size: 10px;
+        font-size: 13px;
       }
       a:active {
         text-decoration: underline;
