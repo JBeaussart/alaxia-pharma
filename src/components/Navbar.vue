@@ -35,8 +35,8 @@ nav {
   z-index: 300;
   position: sticky;
   top: 0;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-bottom: 2px solid #025293;
   ul {
     display: flex;
@@ -65,7 +65,7 @@ nav {
   }
 }
 .logo {
-  height: 30px;
+  height: 35px;
   padding-top: px;
 }
 </style>
