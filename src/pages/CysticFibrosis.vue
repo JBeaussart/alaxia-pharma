@@ -50,4 +50,8 @@ export default {};
 h1 {
   font-size: 42px;
 }
+p, a {
+  font-size: 18px;
+  line-height: 24px;
+}
 </style>
