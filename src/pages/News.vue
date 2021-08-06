@@ -93,7 +93,7 @@
       to hasten our development programs.”
     </p>
     <br />
-    <p><strong>About ALX-009</strong></p>
+    <p><strong class="news_second_title">About ALX-009</strong></p>
     <p>
       ALX-009 targets antibiotic-multi-resistant Gram negative bacteria (‘super
       bugs’) that are currently untreatable. It combines two endogenous
@@ -109,7 +109,7 @@
       US and the EU. Both the drug and the technologies are patented.
     </p>
     <br />
-    <p><strong>About Alaxia </strong></p>
+    <p><strong class="news_second_title">About Alaxia </strong></p>
     <p>
       Alaxia, an affiliate of the Stragen Pharma Group, specializes in
       developing antimicrobial therapies for cystic fibrosis and other chronic
@@ -148,6 +148,8 @@ export default {};
 }
 h2 {
   font-size: 42px;
+  margin-bottom: 12px;
+  margin-top: 24px;
 }
 p {
   font-size: 18px;
@@ -165,5 +167,12 @@ p {
 }
 .news_date {
   font-size: 18px;
+}
+.news_second_title {
+  font-size: 18px;
+}
+a {
+  font-size: 18px;
+  color: #3BB8E3;
 }
 </style>
