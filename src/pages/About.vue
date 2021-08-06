@@ -37,6 +37,9 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+.container {
+  margin-top: 80px;
+}
 h2:first-child {
   font-size: 42px;
   margin-bottom: 24px;

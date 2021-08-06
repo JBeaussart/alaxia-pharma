@@ -1,12 +1,6 @@
 <template>
   <div class="container">
     <h2>EVENT</h2>
-    <br />
-    <br />
-    <br />
-    <hr />
-    <br />
-    <br />
 
     <div class="event">
       <p class="event_year">2021</p>
@@ -180,9 +174,11 @@ export default {};
 <style lang="scss" scoped>
 .container {
   text-align: justify;
+  margin-top: 80px;
 }
 h2 {
   font-size: 42px;
+  margin-bottom: 40px;
 }
 p {
   font-size: 18px;

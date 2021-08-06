@@ -145,6 +145,7 @@ export default {};
 <style lang="scss" scoped>
 .container {
   text-align: justify;
+  margin-top: 80px;
 }
 h2 {
   font-size: 42px;
