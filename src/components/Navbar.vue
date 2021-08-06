@@ -17,13 +17,19 @@
           <router-link to="/poster-and-talk">POSTERS AND TALKS</router-link>
         </li>
         <li><router-link to="/contact">CONTACT</router-link></li>
+        
       </div>
-      <div>
+      <div class="logo_container">
         <li>
           <router-link to="/"
             ><img class="logo" src="../assets/logo.jpg" alt="logo alaxia"
           /></router-link>
         </li>
+        <div class="link_img">
+          <img src="../assets/navbar/pastille-alx.png" alt="">
+          <img src="../assets/navbar/pastille-clinical.png" alt="">
+          <img src="../assets/navbar/pastille-patient.png" alt="">
+        </div>
       </div>
     </ul>
   </nav>
@@ -76,5 +82,14 @@ nav {
 .logo {
   height: 40px;
   margin-right: 32px;
+}
+.logo_container {
+  position: relative;
+}
+.link_img {
+  display: flex;
+  top: 62px;
+  right: -75px;
+  position: absolute;
 }
 </style>
