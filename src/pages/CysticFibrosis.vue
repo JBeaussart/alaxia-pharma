@@ -48,6 +48,10 @@ export default {};
   text-align: justify;
 }
 h1 {
-  font-size: 32px;
+  font-size: 42px;
+}
+p, a {
+  font-size: 18px;
+  line-height: 24px;
 }
 </style>

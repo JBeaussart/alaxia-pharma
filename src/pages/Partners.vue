@@ -110,7 +110,7 @@ export default {};
   text-align: justify;
 }
 h1 {
-  font-size: 32px;
+  font-size: 42px;
   margin-bottom: 24px;
 }
 .logo_partners {
@@ -128,5 +128,9 @@ img {
 }
 hr {
   border-top: 1px solid #025293;
+}
+p {
+  font-size: 18px;
+  line-height: 24px;
 }
 </style>

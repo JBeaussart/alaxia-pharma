@@ -16,17 +16,13 @@
     </div>
     <div class="btn container">
       <p>
-        <a href="#overview"
-          ><i class="fas fa-binoculars btn_icon"></i>Overview</a
-        >
+        <a href="#overview"><i class="fas fa-binoculars btn_icon"></i>Overview</a>
       </p>
       <p>
         <a href="#efficacy"><i class="fas fa-bolt btn_icon"></i>Efficacy</a>
       </p>
       <p>
-        <a href="#further_reading"
-          ><i class="fas fa-book-open btn_icon"></i>Further reading</a
-        >
+        <a href="#further_reading"><i class="fas fa-book-open btn_icon"></i>Further reading</a>
       </p>
     </div>
   </div>
@@ -42,7 +38,7 @@ export default {};
 }
 .alx_banner {
   position: relative;
-  height: 250px;
+  height: 300px;
   margin-top: -40px;
   background-color: #205785;
   padding-top: 36px;
@@ -53,11 +49,13 @@ export default {};
   }
 }
 .alx_banner_content_title {
-  font-size: 36px;
+  font-size: 42px;
+  margin-bottom: 16px;
 }
 .alx_banner_content_description {
   text-align: justify;
-  font-size: 14px;
+  font-size: 18px;
+  line-height: 24px;
 }
 .btn {
   position: absolute;
@@ -67,7 +65,7 @@ export default {};
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 8px;
+  margin-bottom: 24px;
 }
 a {
   text-decoration: none;

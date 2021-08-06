@@ -47,9 +47,6 @@ i {
   margin-right: 10px;
   margin-top: 10px;
 }
-p:nth-child(2) {
-  text-align: justify;
-}
 p:last-child {
   width: 300px;
   margin: 0 auto;
@@ -57,5 +54,11 @@ p:last-child {
 p:nth-child(4) {
   width: 300px;
   margin: 0 auto;
+}
+h3 {
+  margin-bottom: 10px;
+}
+h3, p {
+  font-size: 14px;
 }
 </style>

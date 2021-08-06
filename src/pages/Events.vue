@@ -182,7 +182,10 @@ export default {};
   text-align: justify;
 }
 h2 {
-  font-size: 32px;
+  font-size: 42px;
+}
+p {
+  font-size: 18px;
 }
 span {
   margin-left: 24px;
@@ -192,7 +195,7 @@ span {
 }
 .event_year {
   font-size: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   font-weight: bolder;
 }
 .event_month {
@@ -201,7 +204,6 @@ span {
 }
 .event_month_date {
   width: 200px;
-  font-size: 16px;
   font-weight: bold;
   margin-right: 20px;
 }

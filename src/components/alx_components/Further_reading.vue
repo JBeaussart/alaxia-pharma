@@ -251,9 +251,12 @@ export default {};
 
 article p {
   font-style: italic;
+  font-size: 16px;
+  line-height: 24px;
 }
 article h3 {
-  font-size: 14px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 .banner_icon {
   font-size: 24px;

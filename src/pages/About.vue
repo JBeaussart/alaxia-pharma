@@ -38,7 +38,8 @@ export default {};
 
 <style lang="scss" scoped>
 h2:first-child {
-  font-size: 32px;
+  font-size: 42px;
+  margin-bottom: 24px;
 }
 h2 {
   font-size: 16px;
@@ -47,6 +48,8 @@ h2,
 p {
   text-align: left;
   color: #025293;
+  font-size: 16px;
+  line-height: 24px;
 }
 p:nth-child(5) {
   font-weight: bold;

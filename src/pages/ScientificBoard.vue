@@ -19,7 +19,7 @@ export default {
   text-align: justify;
 }
 h1 {
-  font-size: 32px;
+  font-size: 42px;
   margin-bottom: 40px;
 }
 // CARD DESIGN

@@ -4,12 +4,12 @@
     <br />
     <br />
     <p>
-      <strong
+      <strong class="news_breaks"
         >Alaxia breaks new ground with lead compound ALX-009 as virucidal
         agent</strong
       >
     </p>
-    <p>
+    <p class="news_alx009">
       ALX-009, developed as an antimicrobial drug for antibiotic resistant
       infections in lungs of Cystic Fibrosis patients, shows encouraging results
       in inactivating SARS-CoV-2 virus
@@ -17,14 +17,14 @@
     <br />
     <br />
     <p>
-      <strong
+      <strong class="news_paper"
         >Scientific paper, detailing BSL3 lab tests results, will be submitted
         for peer review before year-end</strong
       >
     </p>
     <br />
     <p>
-      <strong>Lyon, France, September 21, 2020</strong> – Alaxia, an affiliate
+      <strong class="news_date">Lyon, France, September 21, 2020</strong> – Alaxia, an affiliate
       of the Stragen Pharma Group developing therapeutic solutions for
       respiratory diseases, today announces a cooperation with a BSL3 (BioSafety
       Level 3) laboratory of University of Padova (Department of Molecular
@@ -93,7 +93,7 @@
       to hasten our development programs.”
     </p>
     <br />
-    <p><strong>About ALX-009</strong></p>
+    <p><strong class="news_second_title">About ALX-009</strong></p>
     <p>
       ALX-009 targets antibiotic-multi-resistant Gram negative bacteria (‘super
       bugs’) that are currently untreatable. It combines two endogenous
@@ -109,7 +109,7 @@
       US and the EU. Both the drug and the technologies are patented.
     </p>
     <br />
-    <p><strong>About Alaxia </strong></p>
+    <p><strong class="news_second_title">About Alaxia </strong></p>
     <p>
       Alaxia, an affiliate of the Stragen Pharma Group, specializes in
       developing antimicrobial therapies for cystic fibrosis and other chronic
@@ -147,6 +147,32 @@ export default {};
   text-align: justify;
 }
 h2 {
-  font-size: 32px;
+  font-size: 42px;
+  margin-bottom: 12px;
+  margin-top: 24px;
+}
+p {
+  font-size: 18px;
+  line-height: 24px;
+}
+.news_breaks {
+  font-size: 20px;
+}
+.news_alx009 {
+  font-size: 20px;
+  color: #3BB8E3;
+}
+.news_paper {
+  font-size: 20px;
+}
+.news_date {
+  font-size: 18px;
+}
+.news_second_title {
+  font-size: 18px;
+}
+a {
+  font-size: 18px;
+  color: #3BB8E3;
 }
 </style>

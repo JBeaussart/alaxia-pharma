@@ -5,8 +5,8 @@
     </h2>
     <br />
     <h3>ALX-009 scientific and medical rationale.</h3>
+    <br />
     <p>
-      <br />
       The genetic causes of CF are linked to the mutation of a single gene, the
       cftr (cystic fibrosis transmembrane conductance regulator) gene. This gene
       codes for the CFTR membrane proteins involved in the ion exchange between
@@ -74,6 +74,13 @@ export default {};
 .container {
   text-align: justify;
 }
+p {
+  font-size: 18px;
+  line-height: 24px;
+}
+h3 {
+  font-size: 18px;
+}
 .alx_part_title {
   font-size: 24px;
 }
@@ -85,6 +92,7 @@ export default {};
 }
 .alx_page_schema_description {
   font-style: italic;
+  font-size: 14px;
 }
 .banner_icon {
   font-size: 24px;
