@@ -129,4 +129,8 @@ img {
 hr {
   border-top: 1px solid #025293;
 }
+p {
+  font-size: 18px;
+  line-height: 24px;
+}
 </style>
