@@ -43,7 +43,7 @@ nav {
   padding-bottom: 15px;
   border-bottom: 2px solid #025293;
   .link {
-    width: 82%;
+    width: 78%;
     display: flex;
     justify-content: space-between;
   }
@@ -75,6 +75,6 @@ nav {
 }
 .logo {
   height: 40px;
-  padding-top: px;
+  margin-right: 32px;
 }
 </style>
