@@ -38,7 +38,7 @@ export default {};
 }
 .alx_banner {
   position: relative;
-  height: 350px;
+  height: 400px;
   margin-top: -40px;
   background-color: #205785;
   padding-top: 36px;
@@ -50,7 +50,7 @@ export default {};
 }
 .alx_banner_content_title {
   font-size: 42px;
-  margin-top: 48px;
+  margin-top: 80px;
   margin-bottom: 16px;
 }
 .alx_banner_content_description {
