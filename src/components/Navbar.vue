@@ -21,14 +21,12 @@
       </div>
       <div class="logo_container">
         <li>
-          <router-link to="/"
-            ><img class="logo" src="../assets/logo.jpg" alt="logo alaxia"
-          /></router-link>
+          <router-link to="/"><img class="logo" src="../assets/logo.jpg" alt="logo alaxia"/></router-link>
         </li>
         <div class="link_img">
-          <img src="../assets/navbar/pastille-alx.png" alt="">
-          <img src="../assets/navbar/pastille-clinical.png" alt="">
-          <img src="../assets/navbar/pastille-patient.png" alt="">
+          <router-link to="/alx-009"><img src="../assets/navbar/pastille-alx.png" alt="pastille alx"></router-link>
+          <router-link to="/clinical-trial"><img src="../assets/navbar/pastille-clinical.png" alt="Clinical Trial"></router-link>
+          <router-link to="/patient"><img src="../assets/navbar/pastille-patient.png" alt=""></router-link>
         </div>
       </div>
     </ul>

@@ -12,6 +12,8 @@ import News from './pages/News.vue';
 import Events from './pages/Events.vue';
 import PosterAndTalk from './pages/PosterAndTalk.vue';
 import Contact from './pages/Contact.vue';
+import ClinicalTrial from './pages/ClinicalTrial.vue';
+import Patient from './pages/Patient.vue';
 
 const router = VueRouter.createRouter({
   history: VueRouter.createWebHistory(),
@@ -61,6 +63,16 @@ const router = VueRouter.createRouter({
       name: 'Contact',
       component: Contact,
     },
+    {
+      path: '/clinical-trial',
+      name: 'ClinicalTrial',
+      component: ClinicalTrial
+    },
+    {
+      path: '/patient',
+      name: 'Patient',
+      component: Patient
+    }
   ],
 });
 
