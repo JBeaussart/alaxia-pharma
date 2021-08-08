@@ -129,7 +129,7 @@
     <br />
     <p>
       The press release can be found
-      <a target="_blank" href="../assets/news/2009_PR_Alaxia-ALX-009_EN.pdf"
+      <a target="_blank" href="/src/assets/news/2009_PR_Alaxia-ALX-009_EN.pdf"
         >here</a
       >
     </p>
