@@ -23,7 +23,7 @@
         <li>
           <router-link to="/"><img class="logo" src="../assets/logo.jpg" alt="logo alaxia"/></router-link>
         </li>
-        <div class="link_img">
+        <div class="link_img" :scroll="handleScroll">
           <router-link to="/alx-009"><img src="../assets/navbar/pastille-alx.png" alt="pastille alx"></router-link>
           <router-link to="/clinical-trial"><img src="../assets/navbar/pastille-clinical.png" alt="Clinical Trial"></router-link>
           <router-link to="/patient"><img src="../assets/navbar/pastille-patient.png" alt=""></router-link>
@@ -34,7 +34,20 @@
 </template>
 
 <script>
-export default {};
+export default {
+  created () {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  destroyed () {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll (event) {
+      const link_img = document.querySelector('.link_img')
+      link_img.classList.toggle("link_img_disabled", window.scrollY > 50)
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
@@ -89,5 +102,8 @@ nav {
   top: 62px;
   right: -75px;
   position: absolute;
+}
+.link_img_disabled {
+  display: none;
 }
 </style>
