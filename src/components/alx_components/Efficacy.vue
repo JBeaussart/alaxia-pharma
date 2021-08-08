@@ -1,5 +1,5 @@
 <template>
-  <div id="efficacy" class="container efficacy">
+  <div style="padding-top: 110px; margin-top: -110px;" id="efficacy" class="container efficacy">
     <h2 class="alx_part_title">
       <i class="fas fa-bolt banner_icon"></i>
       EFFICACY

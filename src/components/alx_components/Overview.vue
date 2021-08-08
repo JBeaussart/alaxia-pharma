@@ -1,5 +1,5 @@
 <template>
-  <div id="overview" class="container alx_overview">
+  <div style="padding-top: 110px; margin-top: -110px;" id="overview" class="container alx_overview">
     <h2 class="alx_part_title">
       <i class="fas fa-binoculars banner_icon"></i> OVERVIEW
     </h2>

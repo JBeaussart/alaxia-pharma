@@ -1,5 +1,5 @@
 <template>
-  <div id="further_reading" class="container further_reading">
+  <div style="padding-top: 110px; margin-top: -110px;" id="further_reading" class="container further_reading">
     <h2 class="alx_part_title">
       <i class="fas fa-book-open banner_icon"></i>
       FURTHER READING
