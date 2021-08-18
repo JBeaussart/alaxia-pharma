@@ -32,10 +32,10 @@
 </template>
 
 <script>
-import Overview from '../components/alx_components/Overview.vue';
-import Efficacy from '../components/alx_components/Efficacy.vue';
-import FurtherReading from '../components/alx_components/Further_reading.vue';
-import AlxBanner from '../components/alx_components/AlxBanner.vue';
+import Overview from "../components/alx_components/Overview.vue";
+import Efficacy from "../components/alx_components/Efficacy.vue";
+import FurtherReading from "../components/alx_components/Further_reading.vue";
+import AlxBanner from "../components/alx_components/AlxBanner.vue";
 export default {
   components: {
     Overview,

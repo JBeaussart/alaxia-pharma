@@ -16,7 +16,7 @@ import Footer from "./components/Footer.vue";
 
 <style>
 /* IMPORT FONT FAMILY LATO FROM GOOGLE FONT */
-@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 /* IMPORT FONT AWESOME */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
@@ -31,7 +31,7 @@ import Footer from "./components/Footer.vue";
   line-height: 20px;
 }
 #app {
-  font-family: 'STIX Two Text', serif;
+  font-family: "STIX Two Text", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
