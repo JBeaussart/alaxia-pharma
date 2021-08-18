@@ -5,7 +5,7 @@
       <div class="card_id_text">
         <h2 class="card_id_text_name">{{ person.name }}</h2>
         <p class="card_id_text_post">{{ person.post }}</p>
-        <br>
+        <br />
         <p v-html="person.work" class="card_id_text_work"></p>
       </div>
       <div class="card_id_avatar">
@@ -59,7 +59,7 @@ export default {
           description:
             "Professor Michael Tunney is a Chair in Clinical Pharmacy at the School of Pharmacy, Queen’s University Belfast. He has an international track record in lung microbiome research with his translational research programme focusing primarily on the improved detection and treatment of lung infection in patients with respiratory diseases such as cystic fibrosis (CF), non-CF bronchiectasis and COPD. He has published over 100 research papers in peer-reviewed journals and serves on a number of scientific advisory boards as well as editorial boards.",
           link: "",
-        }, 
+        },
         {
           name: "Annie-Claude Benichou",
           post: "Md",

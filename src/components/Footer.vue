@@ -58,7 +58,8 @@ p:nth-child(4) {
 h3 {
   margin-bottom: 10px;
 }
-h3, p {
+h3,
+p {
   font-size: 14px;
 }
 </style>
