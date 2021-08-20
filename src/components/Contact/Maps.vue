@@ -1,6 +1,6 @@
 <template>
   <GoogleMap
-    api-key="AIzaSyBJzzExmr51QOrYFjeB85104Zpr8rMvEzI"
+    :api-key="api"
     style="width: 100%; height: 400px"
     :center="center"
     :zoom="15"
@@ -19,6 +19,11 @@ export default defineComponent({
     const center = { lat: 45.73395341922623, lng: 4.876272021661882 };
 
     return { center };
+  },
+  data() {
+    return {
+      api: import.meta.env.VITE_GOOGLE_MAPS_API,
+    };
   },
 });
 </script>
